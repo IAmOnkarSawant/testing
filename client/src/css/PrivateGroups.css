@@ -1,0 +1,114 @@
+.join_group {
+  color: white !important;
+}
+
+.Join_group_buttton {
+  position: absolute !important;
+  display: flex !important;
+  justify-content: space-between;
+  bottom: 25px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 25px !important;
+}
+
+.passcode_container {
+  display: flex;
+  padding: 20px 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.passcode {
+  flex: 1;
+  padding: 8px 50px;
+  border: 0.4px solid black;
+  border-right: 0px;
+}
+
+.passcode_copy {
+  padding: 7.5px 12px;
+  outline: none;
+  border: 0.4px solid black;
+  cursor: pointer;
+}
+
+.copy_message {
+  text-align: center;
+  font-size: 22px;
+  font-family: monospace;
+  color: red;
+  font-weight: 700;
+}
+
+.join_group_button {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  color: white !important;
+  transition: background-position 0.5s ease-in-out;
+  transition: 0.5s !important;
+}
+.join_group_button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.leave_group_icon {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  color: white !important;
+  transition: 0.5s !important;
+}
+.leave_group_icon:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.imp_private-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  padding: 15px 0 0 0;
+}
+.imp_private-info p{
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.groupAdmin_name{
+  font-size: 22px;
+  color: rgb(99, 99, 99);
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: sans-serif !important;
+}

@@ -1,0 +1,41 @@
+.posts__container {
+  padding: 3% 0;
+}
+
+.createPost {
+  padding: 10px 20px;
+  margin: 0px 0px;
+}
+.create,
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  flex: 1;
+  padding: 20px 10px;
+}
+
+/* .avatar__create {
+} */
+.create__input {
+  flex: 1;
+  margin: 0 10px 0 10px !important;
+  padding: 10px 20px;
+  outline: none;
+  border: 0;
+  border-radius: 30px;
+  background-color: rgb(245, 243, 243);
+}
+
+.cards {
+  padding: 2.5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cards > * {
+  margin: 20px;
+}

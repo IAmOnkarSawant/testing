@@ -1,0 +1,128 @@
+.comment__area {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.text__field {
+  margin-right: 10px !important;
+  flex: 1 !important;
+}
+.send__button {
+  margin-left: 10px !important;
+  color: grey !important;
+}
+.send__button:hover {
+  color: #0aa94b !important;
+  background-color: white !important;
+}
+.disabled_color {
+  background-color: grey;
+}
+.comment {
+  background-color: rgb(255, 255, 255) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 10px !important;
+  margin: 10px 0px !important;
+  align-items: center !important;
+}
+.content__comment {
+  flex: 1;
+}
+
+.MuiDialog-paperWidthSm {
+  padding: 20px;
+}
+
+.go_back_button {
+  position: fixed !important;
+  bottom: 30px !important;
+  right: 30px !important;
+  background-color: #0aa94b !important;
+  height: 48px !important;
+  width: 48px !important;
+  color: white !important;
+}
+
+.post_delete :hover {
+  color: #0aa94b;
+}
+
+/* comments */
+.commentBy {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+}
+.commentBody {
+  font-size: 13px !important;
+  font-family: sans-serif;
+  font-weight: 400 !important;
+  margin-left: 15px;
+}
+.commentCreatedAt {
+  display: block !important;
+  font-size: 13px !important;
+  font-family: sans-serif;
+  color: grey;
+  margin-top: 5px;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #0aa94b !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #0aa94b !important;
+}
+
+.postInd_btnss_right {
+  margin: 3px 16px 0 0;
+}
+.postInd_btnss_right > * {
+  padding-right: 12px !important;
+  transform: scale(1.2);
+}
+
+.postInd_textarea {
+  width: 100%;
+  height: 300px;
+  border: 3px solid #cccccc;
+  font-family: Tahoma, sans-serif;
+  border-radius: 15px !important;
+  padding: 10px;
+}
+.postInd_textarea:focus {
+  outline: 0;
+}
+.postInd_form {
+  padding: 20px;
+}
+.postInd_submit_btn {
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  transition: 0.5s !important;
+  outline: none;
+  padding: 12px 40px;
+  color: white;
+  border-radius: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postInd_submit_btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

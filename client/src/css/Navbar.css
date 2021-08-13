@@ -1,0 +1,108 @@
+.navbar {
+  z-index: 100 !important;
+}
+.navbar__strip {
+  background-color: #39424e !important;
+  position: static !important;
+  opacity: 1;
+  visibility: visible;
+}
+.navbar__link {
+  margin-right: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #b7c9cc;
+  padding: 8px 28px !important;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 13px;
+  font-family: IBMPlexSans, Arial, sans-serif;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+.navbar__link:hover {
+  color: white;
+}
+
+.navbar__link--active {
+  /* background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+  border-bottom: 5px solid #1ba94c;
+  color: white;
+}
+
+.navbar__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+/* .navbar__middle {
+} */
+.navbar__logo {
+  animation: tom 1.6s ease-in-out infinite both;
+}
+
+.navbar__brand {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+  font-family: monospace;
+  color: white;
+}
+
+@media (max-width: 890px) {
+  .navbar__link {
+    padding: 6px 15px !important;
+    margin-right: 5px !important;
+  }
+}
+
+.logout__button {
+  margin-right: 15px !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 9px 24px;
+  border-radius: 0.2em;
+  background: linear-gradient(to right, rgb(4, 167, 77), #078633);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 12px;
+  font-family: IBMPlexSans, Arial, sans-serif;
+  text-transform: uppercase;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.logout__button:hover {
+  background-color: #1db853;
+}
+
+.btn_disable {
+  background-color: #d7d7d7 !important;
+}
+
+/* @keyframes tom {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.scrollable_navbar {
+  background-color: rgb(0, 0, 0) !important;
+  opacity: 0.85;
+}

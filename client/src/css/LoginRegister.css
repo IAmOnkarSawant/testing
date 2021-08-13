@@ -1,0 +1,64 @@
+.login__register {
+  padding: 0 75px !important;
+  height: calc(100vh - 64px);
+  display: flex !important;
+  align-items: center !important;
+}
+.tabs__appbar {
+  width: 100%;
+}
+
+.login__container {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}
+.register__container {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}
+
+div[role="tabpanel"] > * {
+  padding: 0px !important;
+}
+
+.MuiButtonBase-root {
+  border: 0 !important;
+}
+
+.lr__button {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  color: white !important;
+  transition: 0.5s !important;
+}
+
+.lr__button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #1db853 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1db853 !important;
+}
+
+.login__register_appbar {
+  box-shadow: none !important;
+  box-shadow: 0px -1px 5px 0px rgb(173, 173, 173) !important;
+}

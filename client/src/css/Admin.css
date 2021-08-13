@@ -1,0 +1,67 @@
+.content__sidebar > * {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+}
+.content__sidebar {
+  margin-top: 23px;
+}
+.sidebar__link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 12px;
+  font-family: IBMPlexSans, Arial, sans-serif;
+  transition: all 1s ease-in-out;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.sidebar__link--active {
+  background-color: rgb(26, 219, 161);
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.admin__appbar__toolbar {
+  justify-content: center !important;
+}
+
+.admin__icon {
+  margin-right: 5px;
+  animation: setting 2s linear infinite both;
+}
+
+@keyframes setting {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fab {
+  margin: 0 10px 0 0 !important;
+}
+
+/* .makeStyles-drawerPaper-6 {
+  background-color: black !important;
+}
+
+.makeStyles-drawerPaper-26 {
+  background-color: black !important;
+} */
+
+/* .MuiPaper-root.MuiDrawer-paper.makeStyles-drawerPaper-6.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 {
+  background-color: black;
+} */
+
+
+.back__button{
+  position: absolute !important;
+  top: 12px !important;
+  right: 23px !important;
+}

@@ -1,0 +1,362 @@
+@media (max-width: 1020px) {
+  .myprofile {
+    flex-direction: column;
+  }
+}
+
+.myprofile {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0 15px;
+}
+.edit__profile {
+  flex: 0.23;
+  margin-top: 26px !important;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  border: 0.7px solid lightgray !important;
+}
+.profile__tabs {
+  flex: 0.75;
+  margin-top: 26px !important;
+}
+.profile__name {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.profile__image {
+  border-radius: 50%;
+  padding: 20px;
+}
+.changeDp form {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.follo__info {
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  font-family: monospace;
+  cursor: pointer;
+}
+.follo__info span {
+  background-color: #0ac059;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 9px;
+  transition: background-color 500ms linear;
+}
+.follo__info span:hover {
+  background-color: #08a84d;
+}
+
+.resourceBox,
+.myposts {
+  background-color: white;
+  padding: 15px 20px;
+  margin: 15px 0;
+}
+
+.resource__btns {
+  margin-right: 15px !important;
+}
+
+.user__details > * {
+  margin-top: 20px !important;
+}
+
+.change__dp__button {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color: white !important;
+  transition: 0.5s !important;
+}
+
+.change__dp__button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* myposts */
+.myposts {
+  border-radius: 10px !important;
+}
+.my_post_content > * {
+  display: block !important;
+}
+.my_post_createdAt {
+  font-size: 15px !important;
+  color: grey !important;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.my_post_postContent {
+  font-size: 16px !important;
+  padding: 10px 0px 45px 0 !important;
+}
+.my_post_accessibilty {
+  position: absolute !important;
+  top: 14px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(73, 73, 73);
+}
+
+.my_post_buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.my_post_delete_button {
+  border: 2px solid #1ba94c !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: 0.5s;
+  color: #1ba94c !important;
+}
+.my_post_delete_button:hover {
+  background: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white !important;
+}
+
+.my_post_delete_view {
+  border: 2px solid #1ba94c !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: 0.5s;
+  color: #1ba94c !important;
+}
+.my_post_delete_view:hover {
+  background: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white !important;
+}
+
+/* myresources */
+.resourceBox {
+  border-radius: 10px !important;
+}
+.resourceBox_content > * {
+  display: block !important;
+}
+.resourceBox_createdAt {
+  font-size: 15px !important;
+  color: grey !important;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.resourceBox_postContent {
+  font-size: 16px !important;
+  padding: 10px 0px 45px 0 !important;
+}
+.resourceBox_accessibilty {
+  position: absolute !important;
+  top: 14px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(73, 73, 73);
+}
+
+.resourceBox_buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.resourceBox_delete_button {
+  border: 2px solid #1ba94c !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: 0.5s;
+  color: #1ba94c !important;
+}
+.resourceBox_delete_button:hover {
+  background: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white !important;
+}
+
+.resourceBox_view {
+  border: 2px solid #1ba94c !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: 0.5s;
+  color: #1ba94c !important;
+}
+.resourceBox_view:hover {
+  background: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white !important;
+}
+
+/* selected tab color */
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #0aa94b !important;
+}
+.MuiTabs-indicator {
+  border-bottom: 2px solid #0aa94b !important;
+}
+
+/* details */
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #0aa94b !important;
+  color: white;
+}
+.card_header_content {
+  display: flex;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.links > * {
+  padding: 10px 0 !important;
+  display: flex;
+  align-items: center;
+}
+.details_container {
+  display: flex !important;
+}
+.details_avatar {
+  transform: scale(1.5) !important;
+}
+.card_header_content_username {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.card_header_content_role {
+  opacity: 0.7;
+}
+
+.update_social_links,
+.change_username {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.update_social_links form,
+.change_username form {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 15px !important;
+}
+
+.change__github__button,
+.change__linkedIn__button,
+.change__twitter__button,
+.change__username__button {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  color: white !important;
+  transition: background-position 0.5s ease-in-out;
+  transition: 0.5s !important;
+}
+
+.change__github__button:hover,
+.change__linkedIn__button:hover,
+.change__twitter__button:hover,
+.change__username__button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.github_link_text a,
+.linkedin_link_text a,
+.twitter_link a {
+  transition: all 0.1s ease-in !important;
+  color: rgb(102, 101, 101);
+  opacity: 0.5;
+}
+
+.github_link_text a:hover,
+.linkedin_link_text a:hover,
+.twitter_link a:hover {
+  color: black;
+  opacity: 1;
+}
+
+.github_link:hover .github_icon {
+  color: rgb(78, 78, 78) !important;
+}
+.linkedin_link:hover .linkedin_icon {
+  color: #0077b5 !important;
+}
+.twitter_link:hover .twitter_icon {
+  color: #50abf1 !important;
+}
+
+.myposts_pre {
+  overflow-x: auto !important;
+  white-space: pre-wrap !important;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap !important;
+  white-space: -o-pre-wrap !important;
+}

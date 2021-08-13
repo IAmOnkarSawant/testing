@@ -1,0 +1,119 @@
+.explore_btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(7, 201, 94) 0%,
+    #059976 51%,
+    #1db853
+  );
+  margin-top: 20px !important;
+  padding: 12px 45px !important;
+  text-align: center;
+  font-size: 15px !important;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px !important;
+  display: block;
+  color: white !important;
+  transition: 0.5s !important;
+}
+.explore_btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Explore_title {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(204, 203, 203);
+  color: rgb(77, 76, 76);
+}
+.aboutUs,
+.Features,
+.Developers {
+  font-size: 35px;
+  font-weight: 700;
+  color: grey;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 75px;
+}
+
+.toolbar_explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toolbarLeft {
+  display: flex !important;
+  align-items: center !important;
+}
+.toolbarRight > * {
+  color: black;
+  margin: 0 20px !important;
+  font-size: 18px !important;
+  font-family: sans-serif !important;
+  cursor: pointer !important;
+}
+
+@media (max-width: 870px) {
+  .toolbarRight > * {
+    margin: 0 5px !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .toolbarRight > * {
+    margin: 0 0px !important;
+  }
+  .toolbar_explore {
+    justify-content: space-between;
+  }
+  .illustration_image {
+    width: 650px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .illustration_image {
+    width: 475px;
+  }
+}
+
+.home,
+.aboutus,
+.features,
+.developers {
+  padding: 10px 20px;
+}
+
+.active {
+  border-bottom: 4px solid #05a54b;
+  border-radius: 2.5px;
+}
+
+
+.why_content{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.developer_image{
+  border-radius: 50% !important;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.developer_image{
+  transition: transform .35s linear;
+}
+
+.developer_image:hover{
+  transform: scale(1.1) !important;
+  overflow: hidden !important;
+}

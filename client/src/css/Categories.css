@@ -1,0 +1,215 @@
+.categories {
+  padding-top: 2.5%;
+}
+.grid__container_for_categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 55px 0px;
+  justify-items: center;
+}
+
+.content {
+  width: 300px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid grey;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+  border: 0.5px solid white;
+  transition: all 0.2s ease-out;
+  border-radius: 20px;
+}
+
+.content:hover {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.3s ease-in-out;
+}
+
+.content:hover .overlay {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/* stylish button */
+.Stylishbtn {
+  /* box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 1.8px solid #21c45a;
+  border-radius: 0.2em;
+  color: #21c45a;
+  cursor: pointer;
+  display: flex;
+  align-self: center; */
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.45em 2.2em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  outline: none;
+  border: 0;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.Stylishbtn:hover,
+.Stylishbtn:focus {
+  color: black;
+  outline: 0;
+}
+
+/* .style {
+  border-color: #21c45a;
+  color: black;
+  background-image: linear-gradient(45deg,#21c45a 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 500ms ease-in-out;
+} */
+
+/* .content:hover .style {
+  background-position: 0;
+  color: black;
+} */
+
+.category_card_follow_unfollow_buttons {
+  position: absolute;
+  display: flex;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin: 0 25px;
+}
+.category_card_report_button {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 3px;
+}
+
+.follow_btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  color: white !important;
+  transition: 0.5s !important;
+  border-radius: 30px !important;
+  display: block !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.follow_btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Unfollow_btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 167, 77) 0%,
+    #04795d 51%,
+    #1db853
+  );
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  color: white !important;
+  transition: 0.5s !important;
+  border-radius: 30px !important;
+  display: block !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+.Unfollow_btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* card header styling */
+.MuiCardHeader-root {
+  background-color: #faf8f8;
+}
+
+#simple-menu {
+  margin: 30px 70px 0 0 !important;
+}
+
+.sendicon:hover {
+  color: #0eaa49 !important;
+  background-color: white !important;
+}
+
+.followers_length {
+  color: rgb(136, 134, 134) !important;
+  font-size: 20px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people_icon {
+  margin-right: 10px !important;
+}
+.people_icon:hover {
+  color: rgb(112, 111, 111) !important;
+}
+
+/* my_followed_categories */
+
+.upper_category_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  padding-bottom: 20px;
+}
+
+.MuiNativeSelect-root {
+  padding: 10px 40px !important;
+}
+.MuiNativeSelect-select {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.MuiCircularProgress-root {
+  color: rgb(4, 167, 77) !important;
+}
